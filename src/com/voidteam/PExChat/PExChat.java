@@ -346,7 +346,7 @@
 /*     */   {
 /* 434 */     float maxHealth = 20.0F;
 /* 435 */     float barLength = 10.0F;
-/* 436 */     float health = player.getHealth();
+/* 436 */     float health = (float) player.getHealth();
 /* 437 */     int fill = Math.round(health / maxHealth * barLength);
 /* 438 */     String barColor = "&2";
 /*     */ 
